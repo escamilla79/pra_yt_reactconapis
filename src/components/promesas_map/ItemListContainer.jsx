@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
-import data from "../../data/productos10.json";
-
+import { pedirProductos } from "./Pedir_productos";
+import ItemList from "./ItemList";
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
-
-  const pedirProductos = () => {
-    return new Promise((resolve, reject) => {
-      resolve(data);
-    });
-  };
 
   useEffect(() => {
     pedirProductos().then((res) => {
@@ -16,20 +10,9 @@ const ItemListContainer = () => {
     });
   }, []);
 
-  console.log(data);
   return (
     <div>
-      <h1> Productos </h1>
-      {productos.length > 0 &&
-        productos.map((producto) => {
-          return (
-            <div>
-              <img src={producto.imagen} alt={producto.title} />
-              <h2>{producto.title}</h2>
-              <p>$ {producto.price}</p>
-            </div>
-          );
-        })}
+      <ItemList productos={productos} />
     </div>
   );
 };
