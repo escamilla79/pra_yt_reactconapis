@@ -1,0 +1,10 @@
+[{"id":1,"title":"Fire Roasted Salsa","imagen":"http://dummyimage.com/234x100.png/cc0000/ffffff","price":2.49,"description":"Salsa made with fire-roasted tomatoes for an authentic flavor."},
+{"id":2,"title":"Breezy Off-The-Shoulder Top","imagen":"http://dummyimage.com/181x100.png/cc0000/ffffff","price":34.99,"description":"A light and breezy top ideal for warm days."},
+{"id":3,"title":"Baking Soda","imagen":"http://dummyimage.com/192x100.png/5fa2dd/ffffff","price":0.99,"description":"Essential ingredient for baking and cooking."},
+{"id":4,"title":"Basic V-Neck T-Shirt","imagen":"http://dummyimage.com/248x100.png/5fa2dd/ffffff","price":19.99,"description":"A staple v-neck t-shirt that pairs well with anything."},
+{"id":5,"title":"Sea Salt Caramel Brownie","imagen":"http://dummyimage.com/126x100.png/dddddd/000000","price":2.49,"description":"Moist brownie topped with sea salt and caramel drizzle."},
+{"id":6,"title":"Set of Decorative Storage Bins","imagen":"http://dummyimage.com/212x100.png/dddddd/000000","price":34.99,"description":"Colorful bins to keep your space organized."},
+{"id":7,"title":"Chickpea Snack Mix","imagen":"http://dummyimage.com/167x100.png/ff4444/ffffff","price":3.49,"description":"Crunchy, seasoned chickpeas for a wholesome snack."},
+{"id":8,"title":"Foot Massager","imagen":"http://dummyimage.com/139x100.png/ff4444/ffffff","price":79.99,"description":"Electric foot massager with heat settings."},
+{"id":9,"title":"Almond Milk Yogurt","imagen":"http://dummyimage.com/117x100.png/ff4444/ffffff","price":1.99,"description":"Creamy yogurt made from almond milk, vegan-friendly."},
+{"id":10,"title":"Travel Mug","imagen":"http://dummyimage.com/177x100.png/dddddd/000000","price":18.99,"description":"Stainless steel travel mug with spill-proof lid."}]
