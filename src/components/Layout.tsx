@@ -20,6 +20,9 @@ const Layout = () => {
         <Link to="/promesas" style={{ marginRight: 10 }}>
           Promesas
         </Link>
+        <Link to="pokemon" style={{ marginRight: 10 }}>
+          Pokemon
+        </Link>
         <Link to="/about" style={{ marginRight: 10 }}>
           Abaout
         </Link>

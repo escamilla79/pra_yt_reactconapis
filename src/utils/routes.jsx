@@ -6,6 +6,7 @@ import PrimerComponete from "../components/PrimerComponete";
 import Card from "../components/card/Card";
 import Counter from "../components/hooks/Counter";
 import ItemListContainer from "../components/promesas_map/ItemListContainer";
+import Pokemon from "../components/fetch/Pokemon";
 
 export const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ export const AppRoutes = () => {
         <Route path="/card" element={<Card />} />
         <Route path="/hooks" element={<Counter />} />
         <Route path="/promesas" element={<ItemListContainer />} />
+        <Route path="/pokemon" element={<Pokemon />} />
       </Routes>
     </BrowserRouter>
   );
